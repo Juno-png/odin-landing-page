@@ -11,17 +11,10 @@ body {
 
 .menu-container {
     display: flex;
-    justify-content: center;
-    padding: 20px 0;
     background-color: #1F2937;
-}
-
-.menu {
-    display: flex;
-    width: 900px;
-    justify-content: space-between;
-    font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FaF8;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
 .logo {
@@ -29,16 +22,18 @@ body {
     color: #F9FaF8;
 }
 
-.link-one {
+.links {
+    display: flex;
     margin-left: auto;
+    padding: 0px 100px 0px 0px;
 }
 
-.link-two {
-    margin-left: 20px;
-}
-
-.link-three {
-    margin-left: 20px;
+.links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
 }
 
 .hero-container {
@@ -62,7 +57,7 @@ h1 {
     color:#F9FaF8;
 }
 
-button {
+.hero-bx button {
     display: block;
     text-align: center;
     width: 110px;
@@ -119,4 +114,37 @@ button {
     padding-right: 10px;
     font-family: 'Roboto', arial;
     text-align: right;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.text {
+    text-align: left;
+}
+
+.item {
+    flex: 1;
+}
+
+.btn button {
+    color: #F9FaF8;
+    font-family: 'Roboto', arial;
+    border-color: #F9FaF8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    font-family: 'Roboto', arial;
 }
