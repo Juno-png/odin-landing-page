@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.link-one {
+    margin-left: auto;
+}
+
+.link-two {
+    margin-left: 20px;
+}
+
+.link-three {
+    margin-left: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.signup-one {
+    flex-direction: column;
+}
