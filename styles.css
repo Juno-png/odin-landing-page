@@ -21,11 +21,13 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FaF8;
+    margin-left: 525px;
 }
 
 .links {
     display: flex;
     margin-left: auto;
+    margin-right: 520px;
     padding: 0px 100px 0px 0px;
 }
 
@@ -39,7 +41,7 @@ body {
 
 .hero-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #1F2937;
     color: #F9FaF8;
@@ -87,6 +89,7 @@ h1 {
 
 .content {
     align-items: center;
+    padding: 100px;
 }
 
 .dance-styles {
@@ -108,7 +111,7 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 0 200px;
+    padding: 100px;
 }
 
 .quote p {
@@ -124,11 +127,12 @@ h1 {
     padding-right: 10px;
     font-family: 'Roboto', arial;
     text-align: right;
+    margin-right: 800px;
 }
 
 .sign-up {
     background-color: #3882f6;
-    margin: 50px 200px;
+    margin: 100px 200px;
     padding: 10px 80px;
     display: flex;
     align-items: center;
@@ -170,4 +174,5 @@ h3 {
     background-color: #1F2937;
     color: #F9FaF8;
     font-family: 'Roboto', arial;
+    padding: 25px;
 }
