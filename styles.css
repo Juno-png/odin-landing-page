@@ -1,12 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     text-align: center;
     font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-container {
@@ -39,8 +40,10 @@ body {
 .hero-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
-    color: #E5E7EB;
+    color: #F9FaF8;
+    padding: 90px;
 }
 
 .hero-bx {
@@ -55,6 +58,13 @@ h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color:#F9FaF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero-bx p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
 }
 
 .hero-bx button {
@@ -131,6 +141,19 @@ h1 {
 
 .item {
     flex: 1;
+}
+
+h3 {
+    color: #F9FaF8;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.text p {
+    color: #F9FaF8;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
 }
 
 .btn button {
